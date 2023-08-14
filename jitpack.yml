@@ -1,2 +1,4 @@
 jdk:
-  - openjdk14
+  - openjdk11
+install:
+  - ./gradlew setupCiWorkspace publishToMavenLocal
